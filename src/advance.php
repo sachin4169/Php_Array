@@ -113,7 +113,7 @@
     foreach ($products as $key => $category) {
         foreach ($category as $key1 => $subcategory) {
             foreach ($subcategory as $key2 => $value) {
-                    echo "   <tr>
+                echo "   <tr>
                     <td>$key</td>
                     <td>$key1</td>
                     <td>$value[id]</td>
@@ -123,8 +123,34 @@
             }
         }
     };
-echo "</table>";
-  
+    echo "</table> <br>";
+
+
+    echo " <table border='1px'>
+<tr>
+    <th>Category</th>
+    <th>Subcategory</th>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Brand</th>
+</tr>";
+    foreach ($products as $key => $category) {
+        foreach ($category as $key1 => $subcategory) {
+            foreach ($subcategory as $key2 => $value) {
+                if ($key1 == "Mobile") {
+                    echo "   <tr>
+                    <td>$key</td>
+                    <td>$key1</td>
+                    <td>$value[id]</td>
+                    <td>$value[name]</td>
+                    <td>$value[brand]</td>
+                     </tr>";
+                }
+            }
+        }
+    };
+    echo "</table>";
+
     foreach ($products as $key => $category) {
         foreach ($category as $key1 => $subcategory) {
             foreach ($subcategory as $key2 => $value) {
