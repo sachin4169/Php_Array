@@ -17,7 +17,7 @@
 <button type="button" class="btn btn-primary"><a href="./task_1.php" class="text-white">Inserting value to array</a></button>
 <button type="button" class="btn btn-primary"><a href="./task_2.php" class="text-white">Calculating Temperature</a></button>
 <button type="button" class="btn btn-primary"><a href="./task_3.php" class="text-white">Filter</a></button>
-<button type="button" class="btn btn-primary"><a href="./task_3.php" class="text-white">Deleteing</a></button>
+<button type="button" class="btn btn-primary"><a href="./task-4.php" class="text-white">Deleteing</a></button>
 
 </body>
 </html>
